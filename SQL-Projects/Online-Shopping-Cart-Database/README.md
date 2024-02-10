@@ -1,4 +1,4 @@
-#ERD
+
 
 ## Entities
 - User (userId, name, phoneNum)
