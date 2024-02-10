@@ -28,7 +28,7 @@ from numpy import std
 # In[172]:
 
 
-data = pd.read_csv("/Users/abhinavadarsh/Desktop/NEHA/WInter'22_2ndQuarter/ALY6015/W1/AmesHousing.csv")
+data = pd.read_csv("AmesHousing.csv")
 data.shape
 
 
