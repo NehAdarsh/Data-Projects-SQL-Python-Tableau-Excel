@@ -1,6 +1,6 @@
 # Danny's Diner
 ## Reference: https://8weeksqlchallenge.com/case-study-1/
-### Please note that all the information regarding the case study has been sourced from the following link: here.
+
 ![image](https://github.com/NehAdarsh/Data-Projects-SQL-Python-Tableau-Excel/assets/111151093/ff3b6c7d-de35-4bf8-8429-3c85878d8cab)
 
 ## Table of Contents
