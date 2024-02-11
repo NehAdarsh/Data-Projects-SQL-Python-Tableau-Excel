@@ -1,2 +1,2 @@
 # Data-Projects-SQL-Python-Tableau-Excel
-Data Analytics/DataScience Projects
+This repository includes all my data projects (Python, SQL, R, Excel, Tableau) 
