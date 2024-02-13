@@ -18,9 +18,9 @@ from facebook_web_log
 where action = "page_exit" `
 
 ### Step 2: Now that we have our two separate tables for page_load and page_exit.
-### Next, we will extract the date from the timestamp column
-### As we need to consider only the latest page_load and earliest page_exit, we will use MAX and MIN with the timestamp
-### In the end, we group it by user_id and the date
+- Next, we will extract the date from the timestamp column
+- As we need to consider only the latest page_load and earliest page_exit, we will use MAX and MIN with the timestamp
+- In the end, we group it by user_id and the date
   
 `select user_id, date(timestamp) as date, max(timestamp) as load_time, action 
 from facebook_web_log
