@@ -24,7 +24,8 @@ group by 1;
 
 
 --------------------------------------------------------------------------------------------------------
-/*
+/* QUESTION BREAKDOWN
+
 ## Question: Users By Average Session Time (ID 10352)
 ## Question Link: https://platform.stratascratch.com/coding/10352-users-by-avg-session-time?code_type=3
 ## Asked by Meta/Facebook
