@@ -9,9 +9,9 @@ My Approach to tackle this problem:
 There are 2 columns page_load and page_exits that we need to take care of. So, I thought to divide these two columns into two separate tables, just for simplicity. 
 ### Step 1: Split the table into two: page_load and page_exit
 
-- select * 
-- from facebook_web_log
-- where action = "page_load"
+'select * 
+from facebook_web_log
+where action = "page_load" '
 
 - select * 
 - from facebook_web_log
