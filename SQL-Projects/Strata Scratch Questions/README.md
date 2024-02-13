@@ -7,15 +7,15 @@
 
 My Approach to tackle this problem:
 There are 2 columns page_load and page_exits that we need to take care of. So, I thought to divide these two columns into two separate tables, just for simplicity. 
-- Step 1: Split the table into two: page_load and page_exit
+### Step 1: Split the table into two: page_load and page_exit
 
-select * 
-from facebook_web_log
-where action = "page_load"
+- select * 
+- from facebook_web_log
+- where action = "page_load"
 
-select * 
-from facebook_web_log
-where action = "page_exit"
+- select * 
+- from facebook_web_log
+- where action = "page_exit"
 
 - Step 2: Now that we have our two separate tables for page_load and page_exit.
 - Next, we will extract the date from the timestamp column
@@ -79,3 +79,5 @@ from page_loads pl
 join page_exits pe
 on pl.user_id = pe.user_id and pl.date = pe.date
 group by 1;
+
+
